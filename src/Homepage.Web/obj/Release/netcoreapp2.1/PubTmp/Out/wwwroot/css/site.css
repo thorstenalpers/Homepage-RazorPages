@@ -1,0 +1,109 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*background-image: url("../images/abstract-architectural-design-architecture-316093.jpg");
+    background-color: #cccccc;*/ }
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.big-text {
+  font-size: 2rem;
+  font-weight: 500; }
+
+#particles-text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -23%);
+  /*max-width: 90%;*/
+  width: 100%;
+  height: 100%;
+  padding: 2em 3em;
+  /*background: rgba(255, 255, 255, 0);*/ }
+
+.particle, .particle > canvas, #particles-js {
+  z-index: -1 !important;
+  min-height: 400px; }
+
+canvas {
+  display: block;
+  vertical-align: bottom; }
+
+.navbar-nav > li {
+  float: left;
+  position: relative; }
+
+.navbar-light .navbar-nav .active a::after {
+  border-bottom: 3px solid #000000;
+  bottom: -5px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0; }
+
+/*.navbar-inverse {
+    background-color: #000;
+}*/
+/*.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}*/
+/*.navbar-inverse .navbar-nav > li.active {
+    color: #000;
+    background: #d65c14;
+}
+
+.navbar-inverse .navbar-nav > li.active > a,
+.navbar-inverse .navbar-nav > li.active > a:hover,
+.navbar-inverse .navbar-nav > li.active > a:focus {
+    color: #000;
+    background: #d65c14;
+}*/
+.textarea-height {
+  height: 250px; }
+
+.nav-item > .nav-link.active {
+  color: white; }
+
+#particles-js {
+  /*position: absolute;
+    width: 100%;
+    height: 100%;*/
+  background: #FAFAFA; }
+
+/*
+.main-body {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    color: $text;
+    max-width: 90%;
+    padding: 2em 3em;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 0px 2px #131415;
+    font-family: 'Open Sans', sans-serif;
+}*/
+/*.active {
+    background: #4FA9DC;
+    color: #000;
+
+}*/
+.field-validation-error {
+  color: #ff0000; }
+
+.field-validation-valid {
+  display: none; }
+
+.input-validation-error {
+  border: 1px solid #ff0000;
+  background-color: #ffeeee; }
+
+.valid {
+  border: 1px solid green;
+  background-color: #b1de79; }

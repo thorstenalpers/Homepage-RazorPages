@@ -1,0 +1,27 @@
+﻿@page
+@model KenntnisseModel
+@{
+    ViewData["Title"] = "ThorstenAlpers.de - Kenntnisse";
+}
+<h2>Kenntnisse</h2>
+
+@{ 
+    int i = 0;
+}
+@foreach (var skill in @Model.Kenntnisse)
+{
+    i = i+1;
+
+    <div class="progressbar-container pb-2">
+        <div class="row w-100">
+            <div class="col-11">
+                <div class="progressbar" id="progressbar_@i" data-percentage="@skill.Value">
+                    <h6>@skill.Name</h6>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="progressbar-text">@skill.Value%</div>
+            </div>
+        </div>
+    </div>
+}

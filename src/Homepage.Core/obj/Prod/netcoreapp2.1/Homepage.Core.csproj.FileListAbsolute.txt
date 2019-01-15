@@ -1,0 +1,9 @@
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\bin\Prod\netcoreapp2.1\Homepage.Core.deps.json
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\bin\Prod\netcoreapp2.1\Homepage.Core.dll
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\bin\Prod\netcoreapp2.1\Homepage.Core.pdb
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\obj\Prod\netcoreapp2.1\Homepage.Core.csprojAssemblyReference.cache
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\obj\Prod\netcoreapp2.1\Homepage.Core.csproj.CoreCompileInputs.cache
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\obj\Prod\netcoreapp2.1\Homepage.Core.AssemblyInfoInputs.cache
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\obj\Prod\netcoreapp2.1\Homepage.Core.AssemblyInfo.cs
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\obj\Prod\netcoreapp2.1\Homepage.Core.dll
+C:\Users\thor\source\repos\Homepage\src\Homepage.Core\obj\Prod\netcoreapp2.1\Homepage.Core.pdb
