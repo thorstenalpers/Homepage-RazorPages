@@ -12,7 +12,7 @@ namespace Homepage.Core.Helper
     /// </summary>
     public class EMailService
     {
-        private readonly string _apikey = "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";
+        private readonly string _apikey = "todo";
         private readonly string _fromName = "Thorsten";
         private readonly string _fromEmail = "thorstenalpers@gmx.net";
         private readonly string _subject = "Anfrage über die Homepage";
