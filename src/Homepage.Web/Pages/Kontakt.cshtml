@@ -1,0 +1,56 @@
+﻿@page
+@model KontaktModel
+@{
+    ViewData["Title"] = "ThorstenAlpers.de - Kontakt";
+}
+
+@if (TempData["email"] is string message)
+{
+    <div class="alert alert-success" role="alert">
+        <p>@message</p>
+    </div>
+}
+
+<h2>Kontakt</h2>
+
+<address>
+    E-Mail: <a href="mailto:ThorstenAlpers@gmx.net">ThorstenAlpers@gmx.net</a>
+</address>
+
+<br />
+<hr />
+
+<h2>Ihre Nachricht</h2>
+
+<form method="post">
+
+    <div class="form-group row">
+        <label asp-for="EMail.Name" class="col-sm-2 col-form-label">Name</label>
+        <div class="col-sm-10">
+            <input class="w-100" asp-for="EMail.Name" placeholder="Name" />
+            <span asp-validation-for="@Model.EMail.Name"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="EMail.From" class="col-sm-2 col-form-label">E-Mail Adresse</label>
+        <div class="col-sm-10">
+            <input class="w-100" type="email" asp-for="EMail.From" placeholder="mail@me.de" />
+            <span asp-validation-for="EMail.From"></span>
+        </div>
+    </div>
+
+    <div class="form-group row textarea-height">
+        <label asp-for="EMail.MsgContent" class="col-sm-2 col-form-label">Nachricht</label>
+        <div class="col-sm-10">
+            @Html.TextAreaFor(e => e.EMail.MsgContent, new { @placeholder = "Nachricht", @class="w-100 h-100" })
+            @Html.ValidationMessageFor(e => e.EMail.MsgContent)
+        </div>
+    </div>
+
+    <div class="form-group row d-flex flex-row-reverse">
+        <div class="col-sm-12 ">
+            <button type="submit" class="btn btn-primary">Senden</button>
+        </div>
+    </div>
+</form>
